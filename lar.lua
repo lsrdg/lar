@@ -12,7 +12,10 @@ checkForErros = {[['Failed systemd services
     
     [['Logfiles 
     Look for errors in the log files located at /var/log, as well as high priority errors in the systemd journal:
-    # journalctl -p 3 -xb']]
+    # journalctl -p 3 -xb'
+    See https://wiki.archlinux.org/index.php/Systemd#Journal for more information.
+    See https://wiki.archlinux.org/index.php/Xorg#Troubleshooting for information on where and how 
+    https://wiki.archlinux.org/index.php/Xorg logs erros.']]
     }
     
 
